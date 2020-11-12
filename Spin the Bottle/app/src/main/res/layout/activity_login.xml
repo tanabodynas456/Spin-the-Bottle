@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="50dp"
+        android:text="PPMusicPlayer"
+        android:textColor="#FFFDFE"
+        android:textSize="43dp"
+        android:textStyle="bold|italic"
+
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:text="Sign in to continue"
+        android:textColor="#708090"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:hint="Username"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="#708090"
+        android:textSize="21dp"/>
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:ems="50"
+        android:inputType="textPersonName"
+        android:text=""
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:maxLines="1"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="#708090"
+        android:textSize="21dp"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:hint="Password"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:ems="50"
+        android:inputType="textPersonName"
+        android:text=""
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:maxLines="1"
+        android:textColor="#FFFFFF"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical"
+        >
+        <Button
+            android:id="@+id/login"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:text="Login"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"/>
+        <Button
+            android:id="@+id/register"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:text="Register"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="20dp"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
